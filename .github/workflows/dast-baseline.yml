@@ -2,8 +2,8 @@
 name: DAST Baseline Scans
 
 on:
-  push:
-  # workflow_dispatch: # to allow to run manually
+  # push:
+  workflow_dispatch: # to allow to run manually
 
 
 
