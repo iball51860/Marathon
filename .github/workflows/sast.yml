@@ -1,8 +1,8 @@
 name: SAST Scans
 
 on:
-  #push:
-  workflow_dispatch: # to allow to run manually
+  push:
+  #workflow_dispatch: # to allow to run manually
 
 
 
@@ -10,6 +10,8 @@ jobs:
 
 
   SAST-Scan:
+
+
     runs-on: ubuntu-latest
 
     steps:
